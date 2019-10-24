@@ -1,0 +1,630 @@
+body{
+    background-color:rgb(240, 175, 35);
+     
+    
+}
+
+
+
+.cursor {
+   background-image: url(../Project_2/image/hammer-02.png);
+    width: 100px;
+    height:120px;
+    pointer-events: none;
+    z-index: 100000;
+    position: absolute;
+}
+
+.halfCircleBottom{
+    background-color: rgb(77, 54, 6);
+    width: 200px;
+    height: 25px;
+    border-radius: 50% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.halfCircleBottom-1{
+    background-color: rgb(77, 54, 6);
+    width: 200px;
+    height: 25px;
+    border-radius: 50% / 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.hide_box{
+    background-color:rgb(240, 175, 35);
+    width: 300px;
+    height: 150px;
+   
+}
+
+#oneup{
+    position: absolute;
+    top:200px;
+    left:250px;
+    z-index: 1;
+}
+
+#onedown{
+    position: absolute;
+    top:225px;
+    left:250px;
+    z-index: 4;
+}
+
+#cat_1{
+    position: absolute;
+    top:225px;
+    left:265px;
+    z-index: 2;
+    animation: slide-in-bottom 1s  alternate ease infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes slide-in-bottom {
+    0% {
+      
+              transform: translateY(0px);
+              
+     
+    }
+    100% {
+   
+              transform: translateY(-120px);
+     
+    }
+
+  }
+
+#one{
+    position: absolute;
+    top:225px;
+    left:225px;
+    z-index: 3;
+}
+
+#twoup{
+    position: absolute;
+    top:200px;
+    left:610px;
+}
+
+#twodown{
+    position: absolute;
+    top:225px;
+    left:610px;
+}
+#threeup{
+    position: absolute;
+    top:200px;
+    left:970px;
+}
+
+#threedown{
+    position: absolute;
+    top:225px;
+    left:970px;
+}
+#fourup{
+    position: absolute;
+    top:400px;
+    left:250px;
+}
+
+#fourdown{
+    position: absolute;
+    top:425px;
+    left:250px;
+}
+
+#fiveup{
+    position: absolute;
+    top:400px;
+    left:610px;
+}
+
+#fivedown{
+    position: absolute;
+    top:425px;
+    left:610px;
+}
+
+#sixup{
+    position: absolute;
+    top:400px;
+    left:970px;
+}
+
+#sixdown{
+    position: absolute;
+    top:425px;
+    left:970px;
+}
+
+#arrow{
+    position: absolute;
+    top:560px;
+    left:668px;
+}
+
+
+
+#sevenup{
+    position: absolute;
+    top:900px;
+    left:250px;
+}
+
+#sevendown{
+    position: absolute;
+    top:925px;
+    left:250px;
+   
+}
+
+#eightup{
+    position: absolute;
+    top:900px;
+    left:610px;
+}
+
+#eightdown{
+    position: absolute;
+    top:925px;
+    left:610px;
+   
+}
+
+#nineup{
+    position: absolute;
+    top:900px;
+    left:970px;
+}
+
+#ninedown{
+    position: absolute;
+    top:925px;
+    left:970px;
+   
+}
+
+#tenup{
+    position: absolute;
+    top:1100px;
+    left:250px;
+}
+
+#tendown{
+    position: absolute;
+    top:1125px;
+    left:250px;
+}
+
+#elevenup{
+    position: absolute;
+    top:1100px;
+    left:610px;
+}
+
+#elevendown{
+    position: absolute;
+    top:1125px;
+    left:610px;
+    z-index: 4;
+}
+
+#cat_2{
+    position: absolute;
+    top:1125px;
+    left:630px;
+    z-index: 2;
+    animation: slide-in-bottom 5s  alternate ease;
+    animation-fill-mode: forwards;
+}
+
+
+#two{
+    position: absolute;
+    top:1125px;
+    left:585px;
+    z-index: 3;
+}
+
+#twelveup{
+    position: absolute;
+    top:1100px;
+    left:970px;
+}
+
+#twelvedown{
+    position: absolute;
+    top:1125px;
+    left:970px;
+}
+
+#arrow_1{
+    position: absolute;
+    top:1290px;
+    left:668px;
+}
+
+
+
+#thriteenup{
+    position: absolute;
+    top:1600px;
+    left:250px;
+}
+
+#thriteendown{
+    position: absolute;
+    top:1625px;
+    left:250px;
+   
+}
+
+#fourteenup{
+    position: absolute;
+    top:1600px;
+    left:610px;
+}
+
+#fourteendown{
+    position: absolute;
+    top:1625px;
+    left:610px;
+   
+}
+
+#fifteenup{
+    position: absolute;
+    top:1600px;
+    left:970px;
+}
+
+#fifteendown{
+    position: absolute;
+    top:1625px;
+    left:970px;
+   z-index: 4;
+}
+
+#cat_3{
+    position: absolute;
+    top:1625px;
+    left:1000px;
+    z-index: 2;
+    animation: slide-in-bottom .1s  alternate ease infinite;
+    animation-fill-mode: forwards;
+}
+
+#cat_3.zoom{
+    animation: zoom 5s  alternate ease;
+	
+	
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        z-index: 6;
+    }
+    100%{
+        transform: scale(10);
+        z-index: 6;
+    }
+}
+
+#three{
+    position: absolute;
+    top:1625px;
+    left:915px;
+    z-index: 3;
+}
+
+#sixteenup{
+    position: absolute;
+    top:1800px;
+    left:250px;
+}
+
+#sixteendown{
+    position: absolute;
+    top:1825px;
+    left:250px;
+   
+}
+
+#seventeenup{
+    position: absolute;
+    top:1800px;
+    left:610px;
+}
+
+#seventeendown{
+    position: absolute;
+    top:1825px;
+    left:610px;
+   
+}
+
+#eighteenup{
+    position: absolute;
+    top:1800px;
+    left:970px;
+}
+
+#eighteendown{
+    position: absolute;
+    top:1825px;
+    left:970px;
+   
+}
+
+#arrow_2{
+    position: absolute;
+    top:1990px;
+    left:668px;
+}
+
+
+#nineteenup{
+    position: absolute;
+    top:2300px;
+    left:250px;
+}
+
+#nineteendown{
+    position: absolute;
+    top:2325px;
+    left:250px;
+   z-index: 4;
+}
+
+#cat_4{
+    position: absolute;
+    top:2325px;
+    left:285px;
+    z-index: 2;
+    animation: slide-in-bottom .8s  alternate ease infinite;
+
+}
+
+#cat_4.shake {
+	animation: shake 100ms infinite;
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(0,0);
+	}
+	50% {
+		transform: translate(2px,-3px);
+	}
+	100% {
+		transform: translate(-3px,1px);
+	}
+}
+
+#four{
+    position: absolute;
+    top:2325px;
+    left:225px;
+    z-index: 3;
+}
+
+#twentyup{
+    position: absolute;
+    top:2300px;
+    left:610px;
+}
+
+#twentydown{
+    position: absolute;
+    top:2325px;
+    left:610px;
+   z-index: 4;
+}
+
+#cat_5{
+    position: absolute;
+    top:2325px;
+    left:660px;
+    z-index: 2;
+    animation: slide-in-bottom 2s  alternate ease infinite;
+
+}
+#cat_5.rotate {
+	animation: rotate 100ms infinite;
+}
+
+@keyframes rotate {
+	0% {
+		transform: translate(0,0);
+	}
+	
+	100% {
+		transform: rotate(3600deg) scale(.2);
+	}
+}
+
+
+#five{
+    position: absolute;
+    top:2325px;
+    left:585px;
+    z-index: 3;
+}
+
+#twentyoneup{
+    position: absolute;
+    top:2300px;
+    left:970px;
+}
+
+#twentyonedown{
+    position: absolute;
+    top:2325px;
+    left:970px;
+   z-index: 4;
+}
+
+#cat_6{
+    position: absolute;
+    top:2325px;
+    left:990px;
+    z-index: 2;
+    animation: slide-in-bottom .6s  alternate ease infinite;
+   
+}
+#cat_6.rotate_1 {
+	animation: rotate_1 100ms infinite;
+}
+
+@keyframes rotate_1 {
+	0% {
+		transform: translate(0,0);
+	}
+	
+	100% {
+		transform: rotate(3600deg) scale(.2);
+	}
+}
+
+#six{
+    position: absolute;
+    top:2325px;
+    left:945px;
+    z-index: 3;
+
+}
+
+#twentytwoup{
+    position: absolute;
+    top:2500px;
+    left:250px;
+}
+
+#twentytwodown{
+    position: absolute;
+    top:2525px;
+    left:250px;
+   z-index: 7;
+}
+
+#cat_7{
+    position: absolute;
+    top:2525px;
+    left:285px;
+    z-index: 5;
+    animation: slide-in-bottom .2s  alternate ease infinite;
+
+}
+
+#cat_7.rotate_2 {
+	animation: rotate_2 100ms infinite;
+}
+
+@keyframes rotate_2 {
+	0% {
+		transform: translate(0,0);
+	}
+	
+	100% {
+		transform: rotate(3600deg) scale(.2);
+	}
+}
+
+#seven{
+    position: absolute;
+    top:2525px;
+    left:225px;
+    z-index: 6;
+    
+}
+
+#twentythreeup{
+    position: absolute;
+    top:2500px;
+    left:610px;
+}
+
+#twentythreedown{
+    position: absolute;
+    top:2525px;
+    left:610px;
+   z-index: 7;
+}
+
+#cat_8{
+    position: absolute;
+    top:2525px;
+    left:670px;
+    z-index: 5;
+    animation: slide-in-bottom 0.5s  alternate ease infinite;
+   
+}
+#cat-8:active{
+	transform: rotate(3600deg) scale(.2);
+}	
+
+#eight{
+    position: absolute;
+    top:2525px;
+    left:585px;
+    z-index: 6;
+}
+
+#twentyfourup{
+    position: absolute;
+    top:2500px;
+    left:970px;
+}
+
+#twentyfourdown{
+    position: absolute;
+    top:2525px;
+    left:970px;
+   z-index: 7;
+}
+
+#cat_9{
+    position: absolute;
+    top:2525px;
+    left:1000px;
+    z-index: 5;
+    animation: slide-in-bottom 2s  alternate ease infinite;
+   
+} 
+
+#cat_9.rotate_3 {
+	animation: rotate_3 100ms infinite;
+}
+
+@keyframes rotate_3 {
+	0% {
+		transform: translate(0,0);
+	}
+	
+	100% {
+		transform: rotate(3600deg) scale(.2);
+	}
+}
+
+#nine{
+    position: absolute;
+    top:2525px;
+    left:945px;
+    z-index: 6;
+}
+
+#ten{
+    position: absolute;
+    top:2725px;
+    left:1000px;
+    background-color:rgb(240, 175, 35);;
+    width:1000px;
+    height: 100px;
+
+
+}

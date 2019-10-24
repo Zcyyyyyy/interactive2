@@ -1,0 +1,18 @@
+#halfCircleBottom{
+    background-color: #80C5A0;
+    width: 400px;
+    height: 100px;
+    border-radius: 50% / 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#halfCircleBottom-1{
+    background-color: #80C5A0;
+    width: 400px;
+    height: 100px;
+    border-radius: 50% / 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
