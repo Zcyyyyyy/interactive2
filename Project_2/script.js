@@ -27,6 +27,7 @@ document.addEventListener('mousemove', function (event) {
 // }
 catOne.addEventListener('click', function () {
     hasClickedOncatOne = true
+    catOne.classList.add('beenClicked')
 })
 
 catTwo.addEventListener('click', function () {

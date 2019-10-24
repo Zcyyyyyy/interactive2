@@ -62,6 +62,10 @@ body{
     animation: slide-in-bottom 1s  alternate ease infinite;
     animation-fill-mode: forwards;
 }
+#cat_1.beenClicked{
+    z-index:90009;
+    pointer-events: none;
+}
 @keyframes slide-in-bottom {
     0% {
       
