@@ -76,13 +76,3 @@ let cat_9 = document.querySelector('#cat_9')
 cat_9.addEventListener('click', function () {
     this.classList.toggle('rotate_3')
 })
-
-let cat_8 = document.querySelector('#cat_8')
-cat_8.addEventListener('click', function () {
-    this.classList.toggle('state')
-
-    setTimeout(function () {
-        cat_8.classList.remove('state')
-    }, 1200)
-
-})

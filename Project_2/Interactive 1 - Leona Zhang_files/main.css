@@ -571,12 +571,11 @@ body{
     left:670px;
     z-index: 5;
     animation: slide-in-bottom 0.5s  alternate ease infinite;
-    
+   
 }
-#cat_8.state {
-	animation-play-state: paused
-}
-	
+#cat-8:active{
+	transform: rotate(3600deg) scale(.2);
+}	
 
 #eight{
     position: absolute;
