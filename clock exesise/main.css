@@ -1,0 +1,40 @@
+body {
+	background: black;	
+	color: white;
+	font-family: monaco;
+
+}
+
+
+#bs {
+  position:absolute;
+  width:650px;
+  left:calc(50vw - 325px);
+  bottom:calc(50vh - 325px);
+/*   animation: rotation1 60s infinite linear; */
+}
+
+
+#ms {
+  position:absolute;
+  width:450px;
+  left:calc(50vw - 225px);
+  bottom:calc(50vh - 225px);
+/*   display: grid;
+	align-items: center;
+  justify-items: center; */
+/*   animation: rotation2 300s infinite linear; */
+}
+
+
+
+#ss {
+  position:absolute;
+  width:300px;
+
+  left:calc(50vw - 150px);
+  bottom:calc(50vh - 150px);
+  
+  
+/*   animation: rotation3 600s infinite linear; */
+}
