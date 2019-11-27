@@ -1,0 +1,586 @@
+html {
+    scroll-snap-type: y proximity;
+
+}
+
+body{
+    background-color: rgb(53, 53, 50);
+
+}
+
+#desktop {
+    scroll-snap-align: start;
+
+}
+
+#cover{
+    position: absolute;
+    left:50px;
+    top:0px;
+    width: 600px;
+    object-fit: scale-down;
+}
+#c{
+    position: absolute;
+    left:286px;
+    top:120px;
+    width: 185px;
+    height: 185px;
+   
+}
+#c.active{
+    background-color: rgb(155, 18, 18);
+}
+
+.circle{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+cursor: pointer;
+}
+
+#cone{
+    position: absolute;
+left:362px;
+top:205px;
+
+
+}
+#cone:active{
+    background-color: rgb(141, 48, 48);
+}
+
+#sign{
+   width:700px;
+    position: absolute;
+    top:120px;
+    left: 675px;
+}
+#date{
+    position: absolute;
+    top:630px;
+    left: 765px;
+    font-size: 12pt;
+    color: rgb(241, 78, 78);
+    font-family: 'Lora', serif;
+}
+
+
+
+
+#page{
+    position: absolute;
+    top:750px;
+    left:0px;
+    scroll-snap-align: start;
+    background-color: rgb(141, 48, 48);
+    width:1460px;
+    height: 700px;
+}
+#pone{
+    position: absolute;
+    left:250px;
+    top:90px;
+    width: 400px;
+    
+}
+
+#intro{
+    position: absolute;
+    left:875px;
+    top:200px;
+    width:340px;
+    color: snow; 
+    font-size: 10pt;
+    line-height: 22pt;
+    font-family: 'Lora', serif;
+}
+
+#page-1{
+    position: absolute;
+    left:0px;
+    top:1450px;
+    width: 400px;
+    scroll-snap-align: start;
+    background-color: rgb(150, 80, 80);
+    width:1460px;
+    height: 700px;
+}
+
+#p-2{
+    width:400px;
+    position: absolute;
+    top:90px;
+    left:250px;
+
+}
+
+#p-2_2{
+    width:400px;
+    position: absolute;
+    left:790px;
+    top:90px;
+    
+}
+
+#ctwo{
+    position: absolute;
+    left:904px;
+    top:130px;
+    background-color: black;
+}
+#ctwo:active{
+    background-color: rgb(150, 80, 80);
+}
+
+#cthree{
+    position: absolute;
+    left:386px;
+    top:119px;
+    background-color: black;
+}
+#cthree:active{
+    background-color: rgb(150, 80, 80);
+}
+
+
+#page-2{
+    position: absolute;
+    left:0px;
+    top:2150px;
+    width: 400px;
+    scroll-snap-align: start;
+    background-color: rgb(190, 117, 117);
+    width:2460px;
+    height: 700px;
+}
+
+#p-3{
+    width:300px;
+    position: absolute;
+    top:33px;
+    left:690px;
+
+}
+
+#p-3_2{
+    width:300px;
+    position: absolute;
+    left:1032px;
+    top:314px;
+    
+}
+
+#p-3_3{
+    width:550px;
+    position: absolute;
+    top:33px;
+    left:100px;
+}
+
+#cfour{
+    position: absolute;
+    left:301px;
+    top:100px;
+    background-color: black;
+}
+#cfour:active{
+    background-color: rgb(190, 117, 117);
+}
+#cfive{
+    position: absolute;
+    left:801px;
+    top:72px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+#cfive:active{
+    background-color: rgb(190, 117, 117);
+}
+#csix{
+    position: absolute;
+    left:1158px;
+    top:388px;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+#csix:active{
+    background-color: rgb(190, 117, 117);
+}
+
+#page-3{
+    position: absolute;
+    left:0px;
+    top:2850px;
+    width: 400px;
+    scroll-snap-align: start;
+    background-color: rgb(94, 68, 68);
+    width:2460px;
+    height: 1300px;
+}
+
+#p-4{
+    width:1000px;
+    position: absolute;
+    top:80px;
+    left:230px;
+    object-fit: contain;
+
+}
+
+#cseven{
+    position: absolute;
+    left:674px;
+    top:252px;
+    background-color: black;
+}
+#cseven:active{
+    background-color: rgb(94, 68, 68);
+}
+
+
+#page-4{
+    position: absolute;
+    left:0px;
+    top:4150px;
+    scroll-snap-align: start;
+    background-color: rgb(99, 54, 54);
+    width:4460px;
+    height: 700px;
+}
+
+#p-5{
+    width:500px;
+    position: absolute;
+    left:50px;
+    top:100px;
+    
+}
+#p-5_2{
+    width:240px;
+    position: absolute;
+    left:596px;
+    top:100px;
+    
+}
+#p-5_3{
+    width:240px;
+    position: absolute;
+    left:596px;
+    top:350px;
+    
+}
+#p-5_4{
+    width:497px;
+    position: absolute;
+    left:882px;
+    top:100px;
+    
+}
+
+#ceight{
+    position: absolute;
+    left:306px;
+    top:194px;
+    background-color: black;
+}
+#ceight:active{
+    background-color:rgb(99, 54, 54);
+}
+
+#cnine{
+    position: absolute;
+    left:1101px;
+    top:245px;
+    background-color: black;
+}
+#cnine:active{
+    background-color:rgb(99, 54, 54);
+}
+
+#cten{
+    position: absolute;
+    left:702px;
+    top:145px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#cten:active{
+    background-color:rgb(99, 54, 54);
+}
+#celeven{
+    position: absolute;
+    left:726px;
+    top:374px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#celeven:active{
+    background-color:rgb(99, 54, 54);
+}
+
+#page-5{
+    position: absolute;
+    left:0px;
+    top:4850px;
+    scroll-snap-align: start;
+    background-color: rgb(134, 52, 52);
+    width:4460px;
+    height: 700px;
+}
+
+#p-6{
+    width:470px;
+    position: absolute;
+    left:256px;
+    top:50px;
+    
+}
+#p-6_2{
+    width:470px;
+    position: absolute;
+    left:726px;
+    top:50px;
+    
+}
+
+#c_12{
+    position: absolute;
+    left:468px;
+    top:60px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_12:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_13{
+    position: absolute;
+    left:305px;
+    top:62px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_13:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_14{
+    position: absolute;
+    left:630px;
+    top:60px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_14:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_15{
+    position: absolute;
+    left:789px;
+    top:58px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_15:active{
+    background-color:rgb(134, 52, 52);
+}
+
+#c_16{
+    position: absolute;
+    left:962px;
+    top:60px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_16:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_17{
+    position: absolute;
+    left:1119px;
+    top:60px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_17:active{
+    background-color:rgb(134, 52, 52);
+}
+
+#c_18{
+    position: absolute;
+    left:1119px;
+    top:267px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_18:active{
+    background-color:rgb(134, 52, 52);
+}
+
+#c_19{
+    position: absolute;
+    left:948px;
+    top:267px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_19:active{
+    background-color:rgb(134, 52, 52);
+}
+
+#c_20{
+    position: absolute;
+    left:799px;
+    top:265px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_20:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_21{
+    position: absolute;
+    left:645px;
+    top:265px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_21:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_22{
+    position: absolute;
+    left:473px;
+    top:265px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_22:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_23{
+    position: absolute;
+    left:319px;
+    top:265px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_23:active{
+    background-color:rgb(134, 52, 52);
+}
+
+#c_24{
+    position: absolute;
+    left:310px;
+    top:468px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_24:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_25{
+    position: absolute;
+    left:480px;
+    top:464px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_25:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_26{
+    position: absolute;
+    left:629px;
+    top:459px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_26:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_27{
+    position: absolute;
+    left:785px;
+    top:464px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_27:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_28{
+    position: absolute;
+    left:949px;
+    top:462px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_28:active{
+    background-color:rgb(134, 52, 52);
+}
+#c_29{
+    position: absolute;
+    left:1111px;
+    top:462px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#c_29:active{
+    background-color:rgb(134, 52, 52);
+}
+
+
+#page-6{
+    position: absolute;
+    left:0px;
+    top:5550px;
+    scroll-snap-align: start;
+    background-color: rgb(177, 24, 24);
+    width:4460px;
+    height: 700px;
+}
+
+#p-7{
+    width:600px;
+    position: absolute;
+    left:412px;
+    top:50px;
+    
+}
+
+#c_30{
+    position: absolute;
+    left:668px;
+    top:151px;
+
+    background-color: rgb(177, 24, 24);
+}
+
+#c_30.active {
+    background-color: rgb(177, 24, 24);
+    background-image: url("../Project3/image/QR-code.png");
+    background-size: 95%;
+  }
