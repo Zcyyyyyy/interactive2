@@ -15,17 +15,17 @@ body{
 
 #cover{
     position: absolute;
-    left:50px;
+    left:-28px;
     top:0px;
-    width: 600px;
+    height:900px;
     object-fit: scale-down;
 }
 #c{
     position: absolute;
-    left:286px;
-    top:120px;
-    width: 185px;
-    height: 185px;
+    left: 255px;
+    top: 143px;
+    width: 224px;
+    height: 224px;
    
 }
 #c.active{
@@ -38,16 +38,27 @@ height: 120px;
 border-radius: 50%;
 cursor: pointer;
 }
+.mask div {
+    transition: opacity 300ms ease;
+}
+.mask.active div {
+    opacity: 0;
+}
+.mask.active .circle {
+    opacity: 1;
+}
 
 #cone{
     position: absolute;
 left:362px;
-top:205px;
+top:294px;
+background-color: rgb(141, 48, 48);
+z-index: 3;
 
 
 }
 #cone:active{
-    background-color: rgb(141, 48, 48);
+    background-color:black;
 }
 
 #sign{
@@ -58,11 +69,11 @@ top:205px;
 }
 #date{
     position: absolute;
-    top:630px;
-    left: 765px;
+    top: 300px;
+    left: 736px;
     font-size: 12pt;
-    color: rgb(241, 78, 78);
-    font-family: 'Lora', serif;
+    color: rgb(190, 29, 29);
+    font-family: 'Yellowtail', cursive;
 }
 
 
@@ -70,27 +81,68 @@ top:205px;
 
 #page{
     position: absolute;
-    top:750px;
+    top:898px;
     left:0px;
     scroll-snap-align: start;
     background-color: rgb(141, 48, 48);
     width:1460px;
-    height: 700px;
+    height: 900px;
 }
 #pone{
     position: absolute;
     left:250px;
-    top:90px;
+    top:181px;
     width: 400px;
     
+    
 }
+/*#b{
+    background-color: rgb(238, 234, 234);
+    position: absolute;
+    width: 400px;
+    height: 518px;
+    top: 181px;
+    left: 250px;
+    z-index: 2;
+   
+}*/
 
+#s{
+    background-color: black;
+    position: absolute;
+    width: 334px;
+    height: 461px;
+    top: 210px;
+    left: 282px;
+    z-index: 2;
+   
+}
+#in{
+    position: absolute;
+    left: 792px;
+    top: 210px;
+    width: 400px;
+    color: snow;
+    font-size: 10pt;
+    line-height: 22pt;
+    font-family: 'Lora', serif;
+}
 #intro{
     position: absolute;
-    left:875px;
-    top:200px;
-    width:340px;
-    color: snow; 
+    left: 1032px;
+    top: 174px;
+    width: 295px;
+    color: snow;
+    font-size: 10pt;
+    line-height: 22pt;
+    font-family: 'Lora', serif;
+}
+#intro1{
+    position: absolute;
+    left: 690px;
+    top: 481px;
+    width: 295px;
+    color: snow;
     font-size: 10pt;
     line-height: 22pt;
     font-family: 'Lora', serif;
@@ -99,18 +151,18 @@ top:205px;
 #page-1{
     position: absolute;
     left:0px;
-    top:1450px;
+    top:1798px;
     width: 400px;
     scroll-snap-align: start;
     background-color: rgb(150, 80, 80);
     width:1460px;
-    height: 700px;
+    height: 900px;
 }
 
 #p-2{
     width:400px;
     position: absolute;
-    top:90px;
+    top:181px;
     left:250px;
 
 }
@@ -119,46 +171,91 @@ top:205px;
     width:400px;
     position: absolute;
     left:790px;
-    top:90px;
+    top:181px;
     
 }
 
+#b-1{
+    background-color: rgb(238, 234, 234);
+    position: absolute;
+    width: 400px;
+    height: 501px;
+    top: 181px;
+    left: 250px;
+    z-index: 2;
+   
+}
+
+#s-1{
+    background-color: black;
+    position: absolute;
+    width: 345px;
+    height: 438px;
+    top: 209px;
+    left: 278px;
+    z-index: 2;
+   
+}
+
+#b-2{
+    background-color: rgb(240, 236, 236);
+    position: absolute;
+    width: 400px;
+    height: 501px;
+    top: 181px;
+    left: 790px;
+    z-index: 2;
+   
+}
+
+#s-2{
+    background-color: black;
+    position: absolute;
+    width: 345px;
+    height: 438px;
+    top: 209px;
+    left: 818px;
+    z-index: 2;
+   
+}
 #ctwo{
     position: absolute;
     left:904px;
-    top:130px;
-    background-color: black;
+    top:220px;
+    background-color: rgb(150, 80, 80);
+    z-index: 3;
 }
 #ctwo:active{
-    background-color: rgb(150, 80, 80);
+    background-color: black;
 }
 
 #cthree{
     position: absolute;
     left:386px;
-    top:119px;
-    background-color: black;
+    top:212px;
+    background-color: rgb(150, 80, 80);
+    z-index: 2;
 }
 #cthree:active{
-    background-color: rgb(150, 80, 80);
+    background-color: black;
 }
 
 
 #page-2{
     position: absolute;
     left:0px;
-    top:2150px;
+    top:2698px;
     width: 400px;
     scroll-snap-align: start;
     background-color: rgb(190, 117, 117);
     width:2460px;
-    height: 700px;
+    height: 900px;
 }
 
 #p-3{
     width:300px;
     position: absolute;
-    top:33px;
+    top:130px;
     left:690px;
 
 }
@@ -167,53 +264,89 @@ top:205px;
     width:300px;
     position: absolute;
     left:1032px;
-    top:314px;
+    top:413px;
     
 }
 
 #p-3_3{
     width:550px;
     position: absolute;
-    top:33px;
+    top:130px;
     left:100px;
+}
+
+#s-3{
+    background-color: black;
+    position: absolute;
+    width: 461px;
+    height: 571px;
+    top: 160px;
+    left: 146px;
+    z-index: 2;
+   
+}
+#s-4{
+    background-color: black;
+    position: absolute;
+    width: 250px;
+    height: 312px;
+    top: 146px;
+    left: 714px;
+    z-index: 2;
+ 
+    
+}
+#s-5{
+    background-color: black;
+    position: absolute;
+    width: 256px;
+    height: 320px;
+    top: 429px;
+    left: 1054px;
+    z-index: 2;
+   
 }
 
 #cfour{
     position: absolute;
     left:301px;
-    top:100px;
-    background-color: black;
+    top:170px;
+    background-color: rgb(190, 117, 117);
+    z-index: 3;
 }
 #cfour:active{
-    background-color: rgb(190, 117, 117);
+    background-color: rgb(5, 4, 4);
 }
 #cfive{
     position: absolute;
     left:801px;
-    top:72px;
+    top:173px;
     width: 50px;
     height: 50px;
-    background-color: black;
+    background-color: rgb(190, 117, 117);
+    
+    z-index: 3;
 }
 #cfive:active{
-    background-color: rgb(190, 117, 117);
+    background-color: rgb(5, 4, 4);
 }
 #csix{
     position: absolute;
     left:1158px;
-    top:388px;
+    top:483px;
     width: 80px;
     height: 80px;
-    background-color: black;
+    background-color: rgb(190, 117, 117);
+    z-index: 3;
 }
 #csix:active{
-    background-color: rgb(190, 117, 117);
+    background-color: rgb(5, 4, 4);
 }
 
 #page-3{
     position: absolute;
     left:0px;
-    top:2850px;
+    top:3598px;
     width: 400px;
     scroll-snap-align: start;
     background-color: rgb(94, 68, 68);
@@ -229,358 +362,520 @@ top:205px;
     object-fit: contain;
 
 }
-
+#s-6{
+    background-color: black;
+    position: absolute;
+    width: 837px;
+    height: 1032px;
+    top: 136px;
+    left: 310px;
+    z-index: 2;
+   
+}
 #cseven{
     position: absolute;
     left:674px;
     top:252px;
-    background-color: black;
+    background-color: rgb(94, 68, 68);
+    z-index: 3;
 }
 #cseven:active{
-    background-color: rgb(94, 68, 68);
+    background-color: rgb(15, 15, 15);
 }
 
 
 #page-4{
     position: absolute;
     left:0px;
-    top:4150px;
+    top:4898px;
     scroll-snap-align: start;
     background-color: rgb(99, 54, 54);
     width:4460px;
-    height: 700px;
+    height: 900px;
 }
 
 #p-5{
     width:500px;
     position: absolute;
     left:50px;
-    top:100px;
+    top:200px;
     
 }
 #p-5_2{
     width:240px;
     position: absolute;
     left:596px;
-    top:100px;
+    top:200px;
     
 }
 #p-5_3{
     width:240px;
     position: absolute;
     left:596px;
-    top:350px;
+    top:450px;
     
 }
 #p-5_4{
     width:497px;
     position: absolute;
     left:882px;
-    top:100px;
+    top:200px;
     
 }
+
+#s-7{
+    background-color: black;
+    position: absolute;
+    width: 361px;
+    height: 448px;
+    top: 221px;
+    left: 154px;
+    z-index: 2;
+   
+}
+#s-8{
+    background-color: black;
+    position: absolute;
+    width: 363px;
+    height: 452px;
+    top: 221px;
+    left: 982px;
+    z-index: 2;
+   }
+
+   #s-9{
+    background-color: black;
+    position: absolute;
+    width: 174px;
+    height: 216px;
+    top: 210px;
+    left: 644px;
+    z-index: 2;
+   }
+
+   #s-10{
+    background-color: black;
+    position: absolute;
+    width: 177px;
+    height: 218px;
+    top: 461px;
+    left: 644px;
+    z-index: 2;
+   }
 
 #ceight{
     position: absolute;
     left:306px;
-    top:194px;
-    background-color: black;
+    top:294px;
+    background-color:rgb(99, 54, 54);
+    z-index: 3;
 }
 #ceight:active{
-    background-color:rgb(99, 54, 54);
+    background-color:rgb(7, 7, 7);
 }
 
 #cnine{
     position: absolute;
     left:1101px;
-    top:245px;
-    background-color: black;
+    top:345px;
+    background-color:rgb(99, 54, 54);
+    z-index: 3;
 }
 #cnine:active{
-    background-color:rgb(99, 54, 54);
+    background-color:rgb(14, 12, 12);
 }
 
 #cten{
     position: absolute;
     left:702px;
-    top:145px;
+    top:245px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(99, 54, 54);
+    z-index: 3;
 }
 #cten:active{
-    background-color:rgb(99, 54, 54);
+    background-color:rgb(14, 13, 13);
 }
 #celeven{
     position: absolute;
     left:726px;
-    top:374px;
+    top:474px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(99, 54, 54);
+    z-index: 3;
 }
 #celeven:active{
-    background-color:rgb(99, 54, 54);
+    background-color:rgb(3, 3, 3);
 }
 
 #page-5{
     position: absolute;
     left:0px;
-    top:4850px;
+    top:5798px;
     scroll-snap-align: start;
     background-color: rgb(134, 52, 52);
     width:4460px;
-    height: 700px;
+    height: 900px;
 }
-
+#back{
+    width: 994px;
+    height: 652px;
+    position: absolute;
+    left: 229px;
+    top: 110px;
+    background-color: rgb(240, 241, 243);
+}
 #p-6{
     width:470px;
     position: absolute;
     left:256px;
-    top:50px;
+    top:135px;
     
 }
 #p-6_2{
     width:470px;
     position: absolute;
     left:726px;
-    top:50px;
+    top:135px;
     
 }
 
+#s-11{
+    background-color: black;
+    width:470px;
+    height:599px;
+    position: absolute;
+    left:256px;
+    top:135px;
+    z-index: 2;
+   }
+ 
+ #s-12{
+    background-color: black;
+    width:470px;
+    height:599px;
+    position: absolute;
+    left:726px;
+    top:135px;
+    z-index: 2;
+   }
 #c_12{
     position: absolute;
     left:468px;
-    top:60px;
+    top:145px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_12:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(2, 2, 2);
 }
 #c_13{
     position: absolute;
     left:305px;
-    top:62px;
+    top:147px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_13:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(12, 11, 11);
 }
 #c_14{
     position: absolute;
     left:630px;
-    top:60px;
+    top:145px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_14:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(7, 6, 6);
 }
 #c_15{
     position: absolute;
     left:789px;
-    top:58px;
+    top:143px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_15:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(8, 8, 8);
 }
 
 #c_16{
     position: absolute;
     left:962px;
-    top:60px;
+    top:145px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_16:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(14, 12, 12);
 }
 #c_17{
     position: absolute;
     left:1119px;
-    top:60px;
+    top:145px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_17:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(12, 11, 11);
 }
 
 #c_18{
     position: absolute;
     left:1119px;
-    top:267px;
+    top:352px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_18:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(12, 11, 11);
 }
 
 #c_19{
     position: absolute;
     left:948px;
-    top:267px;
+    top:352px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_19:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(10, 9, 9);
 }
 
 #c_20{
     position: absolute;
     left:799px;
-    top:265px;
+    top:350px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_20:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(3, 3, 3);
 }
 #c_21{
     position: absolute;
     left:645px;
-    top:265px;
+    top:350px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_21:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(3, 3, 3);
 }
 #c_22{
     position: absolute;
     left:473px;
-    top:265px;
+    top:350px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_22:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(15, 12, 12);
 }
 #c_23{
     position: absolute;
     left:319px;
-    top:265px;
+    top:350px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_23:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(8, 7, 7);
 }
 
 #c_24{
     position: absolute;
     left:310px;
-    top:468px;
+    top:553px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_24:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(5, 4, 4);
 }
 #c_25{
     position: absolute;
     left:480px;
-    top:464px;
+    top:549px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_25:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(14, 12, 12);
 }
 #c_26{
     position: absolute;
     left:629px;
-    top:459px;
+    top:544px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_26:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(8, 6, 6);
 }
 #c_27{
     position: absolute;
     left:785px;
-    top:464px;
+    top:549px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_27:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(8, 7, 7);
 }
 #c_28{
     position: absolute;
     left:949px;
-    top:462px;
+    top:547px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_28:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(7, 7, 7);
 }
 #c_29{
     position: absolute;
     left:1111px;
-    top:462px;
+    top:547px;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color:rgb(134, 52, 52);
+    z-index: 3;
 }
 #c_29:active{
-    background-color:rgb(134, 52, 52);
+    background-color:rgb(12, 11, 11);
 }
 
 
 #page-6{
     position: absolute;
     left:0px;
-    top:5550px;
+    top:6698px;
     scroll-snap-align: start;
     background-color: rgb(177, 24, 24);
     width:4460px;
-    height: 700px;
+    height: 900px;
 }
 
 #p-7{
     width:600px;
     position: absolute;
     left:412px;
-    top:50px;
+    top:158px;
     
+}
+
+#s-13{
+    background-color: black;
+    position: absolute;
+    width: 431px;
+    height: 533px;
+    top: 188px;
+    left: 533px;
+    z-index: 2;
+   
 }
 
 #c_30{
     position: absolute;
     left:668px;
-    top:151px;
-
+    top:259px;
+z-index: 3;
     background-color: rgb(177, 24, 24);
 }
 
 #c_30.active {
-    background-color: rgb(177, 24, 24);
-    background-image: url("../Project3/image/QR-code.png");
-    background-size: 95%;
+    background-color: rgb(12, 10, 10);
+
   }
+
+  #page-7{
+    position: absolute;
+    left:0px;
+    top:7597px;
+    scroll-snap-align: start;
+    background-color: rgb(12, 11, 11);
+    width:4460px;
+    height: 900px;
+}
+
+#p-8{
+    width:600px;
+    position: absolute;
+    left:412px;
+    top:158px;
+    
+}
+
+#s-14{
+   background-color: black;
+    position: absolute;
+    width: 609px;
+    height: 445px;
+    top: 192px;
+    left: 412px;
+    z-index: 3;
+   pointer-events: none;
+}
+
+#i{
+    position: absolute;
+    left: 631px;
+    top: 410px;
+    width: 400px;
+    color: snow;
+    font-size: 10pt;
+    line-height: 22pt;
+    font-family: 'Lora', serif;
+    z-index: 2;
+}
+
+#c_31{
+    position: absolute;
+    left: 478px;
+    top: 365px;
+z-index: 3;
+    background-color: rgb(250, 9, 9);
+}
+#c_31.active {
+    background-color: rgb(110, 43, 43);
+
+  }
+

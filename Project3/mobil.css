@@ -1,0 +1,51 @@
+@media (max-width: 670px) {
+    #ap-1{
+        width:500px;
+        position: absolute;
+        left: 0px;
+        top:0px;
+    
+    }
+    #ap-2{
+        width:500px;
+        position: absolute;
+        left: 0px;
+        top:636px;
+    
+    }
+    #ap-3{
+        width:500px;
+        position: absolute;
+        left: 0px;
+        top:1269px;
+    
+    }
+    #ap-4{
+        width:500px;
+        position: absolute;
+        left: 0px;
+        top:1907px;
+    
+    }
+    #ap-5{
+        width:500px;
+        position: absolute;
+        left: 0px;
+        top:2540px;
+    
+    }
+    #ap-6{
+        width:500px;
+        position: absolute;
+        left: 0px;
+        top:3178px;
+    
+    }
+    #ap-7{
+        width:500px;
+        position: absolute;
+        left: 0px;
+        top:3812px;
+    
+    }
+}
