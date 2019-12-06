@@ -39,7 +39,7 @@ border-radius: 50%;
 cursor: pointer;
 }
 .mask div {
-    transition: opacity 300ms ease;
+    transition: opacity 1500ms ease;
 }
 .mask.active div {
     opacity: 0;
@@ -71,7 +71,7 @@ z-index: 3;
     position: absolute;
     top: 300px;
     left: 736px;
-    font-size: 12pt;
+    font-size: 15pt;
     color: rgb(190, 29, 29);
     font-family: 'Yellowtail', cursive;
 }
@@ -124,7 +124,7 @@ z-index: 3;
     width: 400px;
     color: snow;
     font-size: 10pt;
-    line-height: 22pt;
+    line-height: 20pt;
     font-family: 'Lora', serif;
 }
 #intro{
@@ -134,17 +134,17 @@ z-index: 3;
     width: 295px;
     color: snow;
     font-size: 10pt;
-    line-height: 22pt;
+    line-height: 18pt;
     font-family: 'Lora', serif;
 }
 #intro1{
     position: absolute;
     left: 690px;
-    top: 481px;
+    top: 505px;
     width: 295px;
     color: snow;
     font-size: 10pt;
-    line-height: 22pt;
+    line-height: 18pt;
     font-family: 'Lora', serif;
 }
 
@@ -328,7 +328,7 @@ z-index: 3;
     z-index: 3;
 }
 #cfive:active{
-    background-color: rgb(5, 4, 4);
+    background-color: rgb(10, 9, 9);
 }
 #csix{
     position: absolute;
@@ -865,6 +865,11 @@ z-index: 3;
     line-height: 22pt;
     font-family: 'Lora', serif;
     z-index: 2;
+    text-decoration: none;
+}
+#i:hover{
+    color: rgb(250, 9, 9); 
+   
 }
 
 #c_31{
